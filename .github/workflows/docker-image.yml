@@ -36,6 +36,5 @@ jobs:
           push: true
           tags: ghcr.io/ahmad-jaber20/my-frontend:latest
           build-args: |
-            REACT_APP_API_URL=${{ secrets.FANOOS_API_URL_PRODUCTION }}
-            REACT_APP_GOOGLE_MAPS_API_KEY=${{ secrets.GOOGLE_MAPS_API_KEY }}
+            REACT_APP_API_URL=${{ secrets.App-Url }}
  
