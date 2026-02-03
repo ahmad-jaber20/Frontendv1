@@ -34,6 +34,4 @@ jobs:
           file: Dockerfile
           push: true
           tags: ghcr.io/ahmad-jaber20/my-frontend:latest
-          build-args: |
-            REACT_APP_API_URL=${{ secrets.APP_URL }}
  
